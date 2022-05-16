@@ -10,6 +10,13 @@ Django = "^4.0.4"
 django-rest-framework = "^0.1.0"
 
 [tool.poetry.dev-dependencies]
+django-debug-toolbar = "^3.4.0"
+black = "^22.3.0"
+rich = "^12.4.1"
+ipython = "^8.3.0"
+flake8 = "^4.0.1"
+pylint = "^2.13.9"
+isort = "^5.10.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
