@@ -22,6 +22,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 INSTALLED_APPS = [
     # First party
     "apps.accounts",
+    "apps.posts",
     # Third party
     # Contrib
     "django.contrib.admin",
