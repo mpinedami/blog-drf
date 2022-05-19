@@ -1,7 +1,7 @@
 from django.contrib.auth import get_user_model
 from django.test import TestCase
 
-from .models import Post
+from apps.accounts.models import Post
 
 
 class BlogTests(TestCase):
@@ -11,6 +11,8 @@ class BlogTests(TestCase):
             username="testuser",
             email="test@email.com",
             password="secret",
+            first_name="first_name",
+            last_name="last_name",
         )
         cls.post = Post.objects.create(
             author=cls.user,
